@@ -8,11 +8,11 @@ In this project, our contribution involves several steps: first, we run the auth
 
 ## Project structure
 
-The folder `alexnet_caffe2pytorch` contains a Dockerfile for converting the AlexNet model version used by the authors from Caffe to PyTorch and a Python file - a conversion script. `net.pt` refers to the weights of the AlexNet model version used by the authors, translated to PyTorch.
+The folder `alexnet_caffe2pytorch` contains a Dockerfile for converting the AlexNet model version used by the authors from Caffe to PyTorch and a Python file - a conversion script. `net.pt` refers to the weights of the AlexNet model version used by the authors, translated to PyTorch.	
 
 The `environment` folder contains an environment with all the dependencies required to run the MFV code on Caffe locally.
 
 The `MFV_for_neural_networks.ipynb` file is used to run the MFV algorithm on PyTorch for modern neural networks.
 
-The `alculating_mean_images.ipynb` file contains the code necessary for generating the "mean images" for the MFV algorithm.
+The `calculating_mean_images.ipynb` file contains the code necessary for generating the "mean images" for the MFV algorithm.
 
